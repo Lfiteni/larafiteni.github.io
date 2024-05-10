@@ -501,6 +501,10 @@ div.scroll-container img {
     margin-right: 20%;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .body6 {
     display: flex;
     justify-content: center;
