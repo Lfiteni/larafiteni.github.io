@@ -1,0 +1,811 @@
+/*button log in page*/
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+.login-link {
+    position: absolute;
+    top: 10%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+
+.login-button {
+    padding: 20px 40px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: "Ubuntu Sans", sans-serif;   
+}
+
+.login-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*username and password page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Sans", sans-serif;  
+    
+}
+
+.body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#E9E7E1;
+    background: url('img.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 800px;
+    background-color:transparent;
+    border: 1px solid ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(rgb(0, 0, 0), rgb(2, 2, 2), rgb(0, 0, 0), alpha);
+    color: #A29E95;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+
+.wrapper h1 {
+    font-size: 52px;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 20px;
+    margin: 20px 0;
+ 
+}
+
+.input-box input {
+    width: 40%;
+    height: 150%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #A29E95;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+}
+
+.input-box input::placeholder {
+    color: #ffffff;
+}
+
+.wrapper .button {
+    width: 20%;
+    height: 40px;
+    background-color: #A29E95;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: left;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #A29E95;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+/*nav bar in home page*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Ubuntu Sans", sans-serif; 
+}
+
+header nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #E9E7E1;
+}
+
+header nav .imagediv{
+    height: 100%;
+    padding: 10px;
+}
+
+header nav .imagediv img{
+    height: 100%;
+}
+
+header nav ul{
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    height: 100%;
+}
+
+header nav ul li{
+    height: 100%;
+    width: 100%;
+}
+
+header nav ul li a{
+    color: #A29E95;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 80px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.premium{
+    color: #5C8A9B;
+    padding-left: 40%;
+    font-weight: bold;
+}
+
+/* home page*/
+.imagehome img{
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex; 
+    padding: 0px 20px;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer nav ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+footer nav ul li{
+    margin-bottom: 10px;
+}
+
+footer nav ul li a{
+    color: #ADA9A1;
+    text-decoration: none;
+}
+
+
+footer img{
+    width: 20%;
+    margin-left: 300px;
+}
+
+/*about us page*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .imgus {
+    width: 85%;
+  }
+
+  h2 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    color:#E9E7E1;
+    font-size: 350%;
+    margin-left: 5%;
+  }
+
+  .paragraph{
+    font-family: "Ubuntu Sans", sans-serif; 
+    margin-left: 5%;
+    font-size: 150%;
+    color:#E9E7E1;
+  }
+
+  .paragraph2{
+    margin-right: 5%;
+    font-size: 150%;
+    font-family: "Ubuntu Sans", sans-serif; 
+    color:#E9E7E1;
+  }
+
+  /* to be all equal from the margin*/
+  .image2{
+    margin-left: 5%;
+  }
+
+  
+/*activity page*/
+.imageactivity img{
+    position: relative;
+    width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;  
+  }
+  
+ 
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.image3{
+    height: 80%;
+    margin-left: 5%;
+}
+
+.activityimg {
+    height: 80%;
+    margin-left: 10%;
+}
+
+ /* for the paragraph of column2 ony */
+.column2 .paragraph {
+    color: #416071;
+}
+
+/* for the paragraph of column2 ony because it is different class*/
+.column2 .paragraph2 {
+    color: #416071;
+    
+}
+
+/*contact us*/
+.body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#E9E7E1;
+    background: url('8.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    width: 1200px;
+    height: 500px;
+    background-color:transparent;
+    border: 1px solid ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(rgb(0, 0, 0), rgb(2, 2, 2), rgb(0, 0, 0), alpha);
+    color: #A29E95;
+    border-radius: 30px;
+    padding: 40px 30px;
+}
+
+.contactush2 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 70px;
+    text-align-last: center;
+    color: #E9E7E1;
+}
+
+.contactush1 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 25px;
+    color: #416071;
+}
+
+.contactush12 {
+    color: #5C8A9B;
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 22px;
+}
+
+/*gallery*/
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+div.scroll-container img {
+    padding: 10px;
+  }
+
+.body15 {
+    background: url('sunset_sky_bavaria_232686.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 1250px;
+}
+
+.galleryh1 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 30px;
+    color: #E9E7E1;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/**/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/**/
+
+.imagegall {
+    width: 77.5%;
+}
+
+
+/*prmium*/
+.explore1{
+    text-align-last: center;
+    color: #ADA9A1;
+    font-size: 40px;
+    font-family: "Ubuntu Sans", sans-serif; 
+}
+
+.explore2 {
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif; 
+    color: #5C8A9B;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.body6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.box6 {
+    width: 1200px;
+    height: 500px;
+    background-color:#ADA9A1;
+    border: 1px solid ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(rgb(0, 0, 0), rgb(2, 2, 2), rgb(0, 0, 0), alpha);
+    color: #A29E95;
+    border-radius: 200px;
+    padding: 40px 30px;
+    margin-top: 0%;
+}
+
+.explore3 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 50px;
+    text-align-last: center;
+}
+
+.explore4 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 25px;
+    text-align-last: left;
+    color: #FFFFFF;
+    margin-left: 2%;
+    margin-left: 2%;
+}
+
+/*small box, link inside*/
+.body7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.box7 {
+    width: 600px;
+    height: 100px;
+    background-color:#E9E7E1;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(rgb(0, 0, 0), rgb(2, 2, 2), rgb(0, 0, 0), alpha);
+    color: #A29E95;
+    border-radius: 200px;
+    padding: 40px 30px;
+    margin-top: -60%;
+}
+
+.explore7 {
+    color: #5C8A9B;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 35px;
+    margin-top: -4%;
+}
+
+/**7.99 circle*/
+.box8 {
+    width: 200px;
+    height: 100px;
+    background-color:#5C8A9B;
+    border: 1px solid ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(rgb(0, 0, 0), rgb(2, 2, 2), rgb(0, 0, 0), alpha);
+    color: #A29E95;
+    border-radius: 400px;
+    padding: 40px 30px;
+    margin-top: -90%;
+    margin-left: 70%;
+}
+
+.explore8 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 40px;
+    margin-top: -9%;
+}
+
+.questions {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 20px;
+    margin-top: 40%;
+    color: #ADA9A1;
+    margin-left: 17%;
+    margin-right: 17%;
+
+}
+
+/*payment details*/
+
+
+/* Global */
+* {
+    box-sizing: border-box;
+}
+ 
+body13,
+html {
+    height: 100%;
+    min-height: 100%;
+}
+ 
+body13 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    margin: 0;
+    background-color: #e7e7e7;
+}
+
+/* Credit Card */
+.credit-card {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+.form-header {
+    height: 80px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #020202;
+}
+ 
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+
+/* Title */
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #000000;
+    font-family: "Ubuntu Sans", sans-serif; 
+    text-align: center;
+}
+
+/* Common */
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    color: #000000;
+}
+
+/* Card Number */
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    font-family: "Ubuntu Sans", sans-serif; 
+}
+
+/* Date Field */
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: url('caret.png') no-repeat;
+    background-position: 85% 50%;
+    font-family: "Ubuntu Sans", sans-serif; 
+    
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+
+/* Card Verification Field */
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+
+/* Buttons Section */
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+}
+ 
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+}
+ 
+
+.proceed-btn a {
+    text-decoration: none;
+}
+ 
+.proceed-btn a {
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif; 
+}
+ 
+/*confirmation page*/
+
+.bodyv {
+    background-color: #ADA9A1;
+    
+  }
+
+  .bodyv {
+    width: 1500px;
+    height: 600px;
+    padding-top: 1%;
+  }
+
+  .confirmation1 {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 60px;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #E9E7E1;
+  }
+
+  .textcon {
+    font-family: "Ubuntu Sans", sans-serif; 
+    font-size: 25px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+    color: #E9E7E1;
+  }
+
+  .close-button-container {
+    position: relative;
+  }
+  
+  /*close button */
+  .close-button {
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 90%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 70px;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  .close-button:hover {
+    color: #000000;
+    text-decoration: none;
+  }
